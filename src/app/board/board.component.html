@@ -1,0 +1,27 @@
+<div class="title">
+  <div *ngFor="let s of smart">
+    <div class="letter">
+      <span>{{ s.letter }}</span>
+    </div>
+    <div>{{ s.name }}</div>
+  </div>
+</div>
+<div>
+  <div *ngFor="let g of goals" class="title">
+    <div class="">
+      <span>{{ g.specific }}</span>
+    </div>
+    <div class="">
+      <span>{{ g.measurable }}</span>
+    </div>
+    <div class="">
+      <span>{{ g.achievable }}</span>
+    </div>
+    <div class="">
+      <span>{{ g.realistic }}</span>
+    </div>
+    <div class="">
+      <span>{{ g.timely }}</span>
+    </div>
+  </div>
+</div>

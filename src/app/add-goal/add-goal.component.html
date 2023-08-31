@@ -1,0 +1,21 @@
+<div>
+  <form [formGroup]="goalForm" (ngSubmit)="onSubmit()">
+    <label for="specific">Specific: </label>
+    <input id="specific" type="text" formControlName="specific" />
+
+    <label for="measurable">Measurable: </label>
+    <input id="measurable" type="text" formControlName="measurable" />
+
+    <label for="achievable">Achievable: </label>
+    <input id="achievable" type="text" formControlName="achievable" />
+
+    <label for="realistic">Realistic: </label>
+    <input id="realistic" type="text" formControlName="realistic" />
+
+    <label for="timely">Timely: </label>
+    <input id="timely" type="text" formControlName="timely" />
+    <div>
+      <button class="button" type="submit">Adicionar</button>
+    </div>
+  </form>
+</div>
